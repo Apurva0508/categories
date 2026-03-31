@@ -110,40 +110,7 @@ export default function MotionUSACategoryShopMockup() {
       </section>
 
       <section className="max-w-7xl mx-auto px-6 py-10">
-        <div className="grid grid-cols-1 lg:grid-cols-[280px_minmax(0,1fr)] gap-8">
-          <aside className="rounded-3xl bg-white border border-slate-200 shadow-sm p-5 h-fit sticky top-6">
-            <h2 className="text-lg font-semibold mb-5">Browse Filters</h2>
-            <div className="space-y-5 text-sm">
-              <div>
-                <div className="font-medium mb-2">Shop by Group</div>
-                <div className="space-y-2 text-slate-600">
-                  <label className="flex items-center gap-2"><input type="checkbox" /> Drives & Motors</label>
-                  <label className="flex items-center gap-2"><input type="checkbox" /> Linear Motion</label>
-                  <label className="flex items-center gap-2"><input type="checkbox" /> Controls & Automation</label>
-                  <label className="flex items-center gap-2"><input type="checkbox" /> Measurement</label>
-                  <label className="flex items-center gap-2"><input type="checkbox" /> Mechanical Power Transmission</label>
-                </div>
-              </div>
-              <div>
-                <div className="font-medium mb-2">Popular Actions</div>
-                <div className="space-y-2 text-slate-600">
-                  <label className="flex items-center gap-2"><input type="checkbox" /> Request Quote Available</label>
-                  <label className="flex items-center gap-2"><input type="checkbox" /> Technical Docs</label>
-                  <label className="flex items-center gap-2"><input type="checkbox" /> In Stock Categories</label>
-                </div>
-              </div>
-              <div>
-                <div className="font-medium mb-2">Sort</div>
-                <select className="w-full rounded-xl border border-slate-300 px-3 py-2 text-slate-700">
-                  <option>Most Popular</option>
-                  <option>A to Z</option>
-                  <option>Recently Added</option>
-                </select>
-              </div>
-            </div>
-          </aside>
-
-          <main>
+        <main>
             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-6">
               <div>
                 <h2 className="text-2xl font-bold">All Categories</h2>
@@ -177,8 +144,7 @@ export default function MotionUSACategoryShopMockup() {
                 </div>
               ))}
             </div>
-          </main>
-        </div>
+        </main>
       </section>
     </div>
   );
